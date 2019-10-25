@@ -16,4 +16,5 @@ pod 'Firebase/Analytics'
 # pod 'Firebase/MLVisionTextModel'
 # If using an on-device API:
 # pod 'Firebase/MLVisionTextModel'
+pod 'RxSwift',    '~> 4.0'
 end
