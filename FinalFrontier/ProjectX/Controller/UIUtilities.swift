@@ -83,28 +83,6 @@ public class UIUtilities {
         }
     }
     
-    public static func visionImageOrientation(
-        from imageOrientation: UIImage.Orientation
-        ) -> VisionDetectorImageOrientation {
-        switch imageOrientation {
-        case .up:
-            return .topLeft
-        case .down:
-            return .bottomRight
-        case .left:
-            return .leftBottom
-        case .right:
-            return .rightTop
-        case .upMirrored:
-            return .topRight
-        case .downMirrored:
-            return .bottomLeft
-        case .leftMirrored:
-            return .leftTop
-        case .rightMirrored:
-            return .rightBottom
-        }
-    }
     
     // MARK: - Private
     

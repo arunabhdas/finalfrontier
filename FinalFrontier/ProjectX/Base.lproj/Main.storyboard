@@ -27,6 +27,9 @@
                                 <rect key="frame" x="150.66666666666666" y="130" width="74" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Landing"/>
+                                <connections>
+                                    <action selector="landingButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2bk-5q-5Bt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUw-o5-Ggd">
                                 <rect key="frame" x="160.66666666666666" y="337" width="54" height="30"/>
@@ -60,11 +63,12 @@
                         <segue destination="wz6-Oo-MUr" kind="show" identifier="SplashToMainSegue" id="G7J-zc-b34"/>
                         <segue destination="ke7-9y-jcP" kind="presentation" identifier="SplashToSignUpSegue" id="d0c-ZW-76w"/>
                         <segue destination="4PT-9R-cZY" kind="presentation" identifier="SplashToLoginSegue" id="OUL-un-oMg"/>
+                        <segue destination="aKm-33-aC1" kind="showDetail" identifier="LandingToLandingDetail" id="gPU-OT-2Mw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4337" y="-525"/>
+            <point key="canvasLocation" x="-5034" y="-802"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="UcF-LH-zod">
@@ -103,27 +107,27 @@
         <!--Landing Detail View Controller-->
         <scene sceneID="Gzy-kQ-CUG">
             <objects>
-                <viewController id="aKm-33-aC1" customClass="LandingDetailViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LandingDetailViewController" id="aKm-33-aC1" customClass="LandingDetailViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3D2-XW-Wzu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jil-s2-LG4" userLabel="buttonOne">
-                                <rect key="frame" x="16" y="97" width="77" height="30"/>
+                                <rect key="frame" x="16" y="53" width="77" height="30"/>
                                 <state key="normal" title="🐔Chicken"/>
                                 <connections>
                                     <action selector="characterSelected:" destination="aKm-33-aC1" eventType="touchUpInside" id="fQ2-kF-rO2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4q9-5K-3t6" userLabel="buttonTwo">
-                                <rect key="frame" x="160.66666666666666" y="97" width="54" height="30"/>
+                                <rect key="frame" x="160.66666666666666" y="53" width="54" height="30"/>
                                 <state key="normal" title="🐶 Dog"/>
                                 <connections>
                                     <action selector="characterSelected:" destination="aKm-33-aC1" eventType="touchUpInside" id="LLk-Cn-Feh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze3-PO-PfB" userLabel="buttonThree">
-                                <rect key="frame" x="305" y="97" width="54" height="30"/>
+                                <rect key="frame" x="305" y="53" width="54" height="30"/>
                                 <state key="normal" title="🐐Goat"/>
                                 <connections>
                                     <action selector="characterSelected:" destination="aKm-33-aC1" eventType="touchUpInside" id="Lzg-EQ-qmu"/>

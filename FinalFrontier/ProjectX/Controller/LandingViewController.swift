@@ -9,6 +9,13 @@ class LandingViewController: UIViewController {
     
     let disposeBag = DisposeBag()
     
+    @IBAction func landingButtonTapped(_ sender: UIButton) {
+        
+        
+        self.performSegue(withIdentifier: "LandingToLandingDetail", sender: self)
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

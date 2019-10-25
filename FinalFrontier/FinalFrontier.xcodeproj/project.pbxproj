@@ -13,7 +13,6 @@
 		4B7D2A602322B92300EF5C72 /* PickUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A5F2322B92300EF5C72 /* PickUsernameViewController.swift */; };
 		4B7D2A632322DB6A00EF5C72 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A622322DB6A00EF5C72 /* Constants.swift */; };
 		4B7D2A652322DFEE00EF5C72 /* BaseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A642322DFEE00EF5C72 /* BaseTabViewController.swift */; };
-		4B7D2A6A2322F46E00EF5C72 /* ScaledElementProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A692322F46E00EF5C72 /* ScaledElementProcessor.swift */; };
 		4B7D2A6C2322FCE200EF5C72 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A6B2322FCE200EF5C72 /* CameraViewController.swift */; };
 		4B7D2A6E2322FD3000EF5C72 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A6D2322FD3000EF5C72 /* FirstTabViewController.swift */; };
 		4B7D2A7223268E1000EF5C72 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A7123268E1000EF5C72 /* UIUtilities.swift */; };
@@ -58,7 +57,6 @@
 		4B7D2A5F2322B92300EF5C72 /* PickUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUsernameViewController.swift; sourceTree = "<group>"; };
 		4B7D2A622322DB6A00EF5C72 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4B7D2A642322DFEE00EF5C72 /* BaseTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabViewController.swift; sourceTree = "<group>"; };
-		4B7D2A692322F46E00EF5C72 /* ScaledElementProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledElementProcessor.swift; sourceTree = "<group>"; };
 		4B7D2A6B2322FCE200EF5C72 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		4B7D2A6D2322FD3000EF5C72 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
 		4B7D2A7123268E1000EF5C72 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				4B7D2A622322DB6A00EF5C72 /* Constants.swift */,
-				4B7D2A692322F46E00EF5C72 /* ScaledElementProcessor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -399,7 +396,6 @@
 				4B7D2A6E2322FD3000EF5C72 /* FirstTabViewController.swift in Sources */,
 				4B7D2A542322A3B800EF5C72 /* LandingViewController.swift in Sources */,
 				DC6F21482321879E001D5B6C /* MainViewController.swift in Sources */,
-				4B7D2A6A2322F46E00EF5C72 /* ScaledElementProcessor.swift in Sources */,
 				4B7D2A7223268E1000EF5C72 /* UIUtilities.swift in Sources */,
 				4B7D2A632322DB6A00EF5C72 /* Constants.swift in Sources */,
 			);
