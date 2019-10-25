@@ -111,14 +111,23 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jil-s2-LG4" userLabel="buttonOne">
                                 <rect key="frame" x="16" y="97" width="77" height="30"/>
                                 <state key="normal" title="🐔Chicken"/>
+                                <connections>
+                                    <action selector="characterSelected:" destination="aKm-33-aC1" eventType="touchUpInside" id="fQ2-kF-rO2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4q9-5K-3t6" userLabel="buttonTwo">
                                 <rect key="frame" x="160.66666666666666" y="97" width="54" height="30"/>
                                 <state key="normal" title="🐶 Dog"/>
+                                <connections>
+                                    <action selector="characterSelected:" destination="aKm-33-aC1" eventType="touchUpInside" id="LLk-Cn-Feh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze3-PO-PfB" userLabel="buttonThree">
                                 <rect key="frame" x="305" y="97" width="54" height="30"/>
                                 <state key="normal" title="🐐Goat"/>
+                                <connections>
+                                    <action selector="characterSelected:" destination="aKm-33-aC1" eventType="touchUpInside" id="Lzg-EQ-qmu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

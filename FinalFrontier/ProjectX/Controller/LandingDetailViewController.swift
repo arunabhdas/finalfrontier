@@ -3,8 +3,16 @@
 //
 
 import UIKit
+import RxSwift
 
 class LandingDetailViewController: UIViewController {
+    
+    private let selectedCharacterVariable = Variable("User")
+    var selectedCharacter: Observable<String> {
+        return selectedCharacterVariable.asObservable()
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -12,7 +20,13 @@ class LandingDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func characterSelected(_ sender: UIButton) {
+        guard let characterName = sender.titleLabel?.text else {
+            return
+        }
+        selectedCharacterVariable.value = characterName
+    }
+    
     /*
     // MARK: - Navigation
 
