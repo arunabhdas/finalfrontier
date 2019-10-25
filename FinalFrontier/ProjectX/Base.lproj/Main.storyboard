@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +11,7 @@
         <!--Landing View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="SplashScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LandingViewController" customModule="ProjectX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SplashScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LandingViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,22 +64,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3510" y="-545"/>
+            <point key="canvasLocation" x="-4337" y="-525"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="UcF-LH-zod">
             <objects>
-                <viewController id="4PT-9R-cZY" customClass="LoginViewController" customModule="ProjectX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4PT-9R-cZY" customClass="LoginViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Ww-LH-Frs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2Q-gT-Ixj">
-                                <rect key="frame" x="168.66666666666666" y="96" width="38" height="30"/>
+                                <rect key="frame" x="168.66666666666666" y="52" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y6j-5i-4oD">
-                                <rect key="frame" x="163.66666666666666" y="281" width="48" height="30"/>
+                                <rect key="frame" x="163.66666666666666" y="237" width="48" height="30"/>
                                 <state key="normal" title="Cancel"/>
                                 <connections>
                                     <action selector="cancelButtonTapped:" destination="4PT-9R-cZY" eventType="touchUpInside" id="mgN-Tn-onn"/>
@@ -102,16 +100,55 @@
             </objects>
             <point key="canvasLocation" x="-1982" y="54"/>
         </scene>
-        <!--Sign Up View Controller-->
-        <scene sceneID="1TG-ha-b1q">
+        <!--Landing Detail View Controller-->
+        <scene sceneID="Gzy-kQ-CUG">
             <objects>
-                <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ke7-9y-jcP" customClass="SignUpViewController" customModule="ProjectX" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="VRv-N6-CPh">
+                <viewController id="aKm-33-aC1" customClass="LandingDetailViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3D2-XW-Wzu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jil-s2-LG4" userLabel="buttonOne">
+                                <rect key="frame" x="16" y="97" width="77" height="30"/>
+                                <state key="normal" title="🐔Chicken"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4q9-5K-3t6" userLabel="buttonTwo">
+                                <rect key="frame" x="160.66666666666666" y="97" width="54" height="30"/>
+                                <state key="normal" title="🐶 Dog"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ze3-PO-PfB" userLabel="buttonThree">
+                                <rect key="frame" x="305" y="97" width="54" height="30"/>
+                                <state key="normal" title="🐐Goat"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4q9-5K-3t6" firstAttribute="top" secondItem="Dxf-2m-AZF" secondAttribute="top" constant="53" id="1CL-eW-tuj"/>
+                            <constraint firstItem="jil-s2-LG4" firstAttribute="top" secondItem="Dxf-2m-AZF" secondAttribute="top" constant="53" id="3UV-BC-Fnl"/>
+                            <constraint firstItem="jil-s2-LG4" firstAttribute="leading" secondItem="Dxf-2m-AZF" secondAttribute="leading" constant="16" id="D0t-cw-9ZO"/>
+                            <constraint firstItem="ze3-PO-PfB" firstAttribute="top" secondItem="Dxf-2m-AZF" secondAttribute="top" constant="53" id="I2a-iK-Nw6"/>
+                            <constraint firstItem="ze3-PO-PfB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4q9-5K-3t6" secondAttribute="trailing" constant="8" symbolic="YES" id="Yff-dd-XCI"/>
+                            <constraint firstItem="4q9-5K-3t6" firstAttribute="centerX" secondItem="3D2-XW-Wzu" secondAttribute="centerX" id="dS4-mc-d9e"/>
+                            <constraint firstItem="4q9-5K-3t6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jil-s2-LG4" secondAttribute="trailing" constant="8" symbolic="YES" id="i1D-CK-C5D"/>
+                            <constraint firstItem="Dxf-2m-AZF" firstAttribute="trailing" secondItem="ze3-PO-PfB" secondAttribute="trailing" constant="16" id="kDg-pA-o2y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Dxf-2m-AZF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pAp-MB-7aS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3721" y="-1148"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="1TG-ha-b1q">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ke7-9y-jcP" customClass="SignUpViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VRv-N6-CPh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="477-cj-Mhp">
-                                <rect key="frame" x="160.66666666666666" y="84" width="54" height="30"/>
+                                <rect key="frame" x="160.66666666666666" y="40" width="54" height="30"/>
                                 <state key="normal" title="Sign Up"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zE-GL-Tfz">
@@ -123,7 +160,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fqa-Cj-TaW">
-                                <rect key="frame" x="163" y="231" width="49" height="30"/>
+                                <rect key="frame" x="163" y="187" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
                             </button>
                         </subviews>
@@ -147,17 +184,17 @@
         <!--Pick Username View Controller-->
         <scene sceneID="UpT-A3-Jpy">
             <objects>
-                <viewController storyboardIdentifier="PickUsernameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uaG-bQ-qRT" customClass="PickUsernameViewController" customModule="ProjectX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PickUsernameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uaG-bQ-qRT" customClass="PickUsernameViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OWA-LI-L9w">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mff-1K-vnu">
-                                <rect key="frame" x="136" y="80" width="103" height="30"/>
+                                <rect key="frame" x="136" y="36" width="103" height="30"/>
                                 <state key="normal" title="Pick Username"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDg-vi-1dG">
-                                <rect key="frame" x="163.66666666666666" y="206" width="48" height="30"/>
+                                <rect key="frame" x="163.66666666666666" y="162" width="48" height="30"/>
                                 <state key="normal" title="Cancel"/>
                                 <connections>
                                     <action selector="cancelButtonTapped:" destination="uaG-bQ-qRT" eventType="touchUpInside" id="sQX-zt-P4v"/>
@@ -183,11 +220,11 @@
             <objects>
                 <viewController id="1Z1-bA-H62" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kUb-3Q-qPL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeS-IV-9ft">
-                                <rect key="frame" x="167" y="138" width="41" height="30"/>
+                                <rect key="frame" x="167" y="94" width="41" height="30"/>
                                 <state key="normal" title="Home"/>
                             </button>
                         </subviews>
@@ -209,11 +246,11 @@
             <objects>
                 <viewController id="nzH-cU-cUB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lGI-Up-lDG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxy-3h-mkJ">
-                                <rect key="frame" x="169.66666666666666" y="106" width="36" height="30"/>
+                                <rect key="frame" x="169.66666666666666" y="62" width="36" height="30"/>
                                 <state key="normal" title="More"/>
                             </button>
                         </subviews>
@@ -235,11 +272,11 @@
             <objects>
                 <viewController id="p15-s8-rRN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LKe-24-ndh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1o-xD-Azg">
-                                <rect key="frame" x="162.66666666666666" y="80" width="50" height="30"/>
+                                <rect key="frame" x="162.66666666666666" y="36" width="50" height="30"/>
                                 <state key="normal" title="History"/>
                             </button>
                         </subviews>
@@ -261,11 +298,11 @@
             <objects>
                 <viewController id="DSq-bC-nkF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nPQ-4r-9aJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziy-G8-5s3">
-                                <rect key="frame" x="154.66666666666666" y="76" width="66" height="30"/>
+                                <rect key="frame" x="154.66666666666666" y="32" width="66" height="30"/>
                                 <state key="normal" title="Expenses"/>
                             </button>
                         </subviews>
@@ -285,13 +322,13 @@
         <!--Scan-->
         <scene sceneID="Oih-YP-bZB">
             <objects>
-                <viewController id="Vdp-9Q-oti" customClass="FirstTabViewController" customModule="ProjectX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Vdp-9Q-oti" customClass="FirstTabViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yrD-ar-4f0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTX-p4-Lze">
-                                <rect key="frame" x="170" y="92" width="35" height="30"/>
+                                <rect key="frame" x="170" y="48" width="35" height="30"/>
                                 <state key="normal" title="Scan"/>
                                 <connections>
                                     <action selector="scanButtonTapped:" destination="Vdp-9Q-oti" eventType="touchUpInside" id="2Fu-8r-foZ"/>
@@ -317,20 +354,20 @@
         <!--Camera View Controller-->
         <scene sceneID="6MT-GV-7eK">
             <objects>
-                <viewController id="5N5-v4-Lq3" customClass="CameraViewController" customModule="ProjectX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5N5-v4-Lq3" customClass="CameraViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dTg-2I-3UW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bd9-CD-28B">
-                                <rect key="frame" x="160.66666666666666" y="86" width="54" height="30"/>
+                                <rect key="frame" x="160.66666666666666" y="42" width="54" height="30"/>
                                 <state key="normal" title="Camera"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lU5-tl-ihO" userLabel="imageView">
-                                <rect key="frame" x="0.0" y="121" width="375" height="597"/>
+                                <rect key="frame" x="0.0" y="77" width="375" height="587"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPN-k0-vSc">
-                                <rect key="frame" x="163.66666666666666" y="738" width="48" height="30"/>
+                                <rect key="frame" x="163.66666666666666" y="684" width="48" height="30"/>
                                 <state key="normal" title="Cancel"/>
                             </button>
                         </subviews>

@@ -18,6 +18,7 @@
 		4B7D2A6E2322FD3000EF5C72 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A6D2322FD3000EF5C72 /* FirstTabViewController.swift */; };
 		4B7D2A7223268E1000EF5C72 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A7123268E1000EF5C72 /* UIUtilities.swift */; };
 		4B7D2A742327E16F00EF5C72 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A732327E16F00EF5C72 /* SecondTabViewController.swift */; };
+		4BB1E5EF2362D15100A810AA /* LandingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB1E5EE2362D15100A810AA /* LandingDetailViewController.swift */; };
 		CA439E5D0438F1902382E262 /* Pods_FinalFrontier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5626D5E4469E7D35D416C353 /* Pods_FinalFrontier.framework */; };
 		DC6F2114232185DC001D5B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F2113232185DC001D5B6C /* AppDelegate.swift */; };
 		DC6F2116232185DC001D5B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F2115232185DC001D5B6C /* ViewController.swift */; };
@@ -62,6 +63,7 @@
 		4B7D2A6D2322FD3000EF5C72 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
 		4B7D2A7123268E1000EF5C72 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
 		4B7D2A732327E16F00EF5C72 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		4BB1E5EE2362D15100A810AA /* LandingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingDetailViewController.swift; sourceTree = "<group>"; };
 		5626D5E4469E7D35D416C353 /* Pods_FinalFrontier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalFrontier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEF6BBDF54A15811FB77717 /* Pods-ProjectX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectX.release.xcconfig"; path = "Target Support Files/Pods-ProjectX/Pods-ProjectX.release.xcconfig"; sourceTree = "<group>"; };
 		DC6F2110232185DC001D5B6C /* FinalFrontier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalFrontier.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +198,7 @@
 				4B7D2A6D2322FD3000EF5C72 /* FirstTabViewController.swift */,
 				4B7D2A7123268E1000EF5C72 /* UIUtilities.swift */,
 				4B7D2A732327E16F00EF5C72 /* SecondTabViewController.swift */,
+				4BB1E5EE2362D15100A810AA /* LandingDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B7D2A5E2322AA0E00EF5C72 /* LoginViewController.swift in Sources */,
+				4BB1E5EF2362D15100A810AA /* LandingDetailViewController.swift in Sources */,
 				4B7D2A5A2322A87D00EF5C72 /* SignUpViewController.swift in Sources */,
 				4B7D2A6C2322FCE200EF5C72 /* CameraViewController.swift in Sources */,
 				4B7D2A602322B92300EF5C72 /* PickUsernameViewController.swift in Sources */,
