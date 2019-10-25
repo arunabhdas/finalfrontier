@@ -9,13 +9,25 @@ class LandingViewController: UIViewController {
     
     let disposeBag = DisposeBag()
     
+    @IBOutlet weak var landingButton: UIButton!
+    @IBOutlet weak var labelLabel: UILabel!
+    
     @IBAction func landingButtonTapped(_ sender: UIButton) {
         
         
-        self.performSegue(withIdentifier: "LandingToLandingDetail", sender: self)
+        
+        let detailVC = storyboard?.instantiateViewController(withIdentifier: "LandingDetailViewController") as! LandingDetailViewController
         
         
+        
+        detailVC.selectedCharacter.subscribe(onNext: { [weak self]  (character) in
+            
+            self?.labelLabel.text =  "\(character)"
+            }).disposed(by: disposeBag)
+        
+        self.present(detailVC, animated: true, completion: nil)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

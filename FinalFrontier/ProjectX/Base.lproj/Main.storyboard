@@ -45,12 +45,20 @@
                                     <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JST-4m-o5Q"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjT-ZM-X5J">
+                                <rect key="frame" x="166.66666666666666" y="196" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LLU-7n-rDQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="0W0-CZ-cXV"/>
                             <constraint firstItem="eUw-o5-Ggd" firstAttribute="top" secondItem="LLU-7n-rDQ" secondAttribute="bottom" constant="169" id="9rn-9H-sYd"/>
                             <constraint firstItem="AYd-QC-fGn" firstAttribute="top" secondItem="eUw-o5-Ggd" secondAttribute="bottom" constant="15" id="Aps-p3-s04"/>
+                            <constraint firstItem="HjT-ZM-X5J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EjN-kz-QFg"/>
+                            <constraint firstItem="HjT-ZM-X5J" firstAttribute="top" secondItem="LLU-7n-rDQ" secondAttribute="bottom" constant="28" id="FgD-d9-z6Q"/>
                             <constraint firstItem="AYd-QC-fGn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QOU-Q2-bn6"/>
                             <constraint firstItem="ljU-uX-ooh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="389" id="R7k-Vr-1th"/>
                             <constraint firstItem="eUw-o5-Ggd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rYw-Il-awd"/>
@@ -60,6 +68,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="labelLabel" destination="HjT-ZM-X5J" id="kZo-Zw-Bg3"/>
+                        <outlet property="landingButton" destination="LLU-7n-rDQ" id="6t8-zG-0Rg"/>
                         <segue destination="wz6-Oo-MUr" kind="show" identifier="SplashToMainSegue" id="G7J-zc-b34"/>
                         <segue destination="ke7-9y-jcP" kind="presentation" identifier="SplashToSignUpSegue" id="d0c-ZW-76w"/>
                         <segue destination="4PT-9R-cZY" kind="presentation" identifier="SplashToLoginSegue" id="OUL-un-oMg"/>
@@ -68,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5034" y="-802"/>
+            <point key="canvasLocation" x="-5345" y="-804"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="UcF-LH-zod">
