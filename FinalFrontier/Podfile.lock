@@ -1,4 +1,5 @@
 PODS:
+  - Cupcake (1.3.1)
   - Firebase/Analytics (6.11.0):
     - Firebase/Core
   - Firebase/Core (6.11.0):
@@ -67,12 +68,14 @@ PODS:
   - RxSwift (4.5.0)
 
 DEPENDENCIES:
+  - Cupcake
   - Firebase/Analytics
   - Firebase/Core
   - RxSwift (~> 4.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Cupcake
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -87,6 +90,7 @@ SPEC REPOS:
     - RxSwift
 
 SPEC CHECKSUMS:
+  Cupcake: d258b6c0c289f7072340990107892aeb20d3fe98
   Firebase: bc9cfc7a96c73268656d5aaab453ff1b4b530e0e
   FirebaseAnalytics: 0e3ecff2c5d86070f7d4325e21f1edabfbd558dc
   FirebaseCore: beeff42c07c30ea94702471d99db2089b594fbbd
@@ -100,6 +104,6 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
-PODFILE CHECKSUM: 847be89f6b372dda4786157cf254bb5dfc7260ad
+PODFILE CHECKSUM: 9aa125167eb1209b356f81a0ebc704cb43053992
 
 COCOAPODS: 1.8.4

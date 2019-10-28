@@ -2,6 +2,7 @@
 //  SplashScreenViewController.swift
 //
 
+
 import UIKit
 import RxSwift
 
@@ -11,6 +12,7 @@ class LandingViewController: UIViewController {
     
     @IBOutlet weak var landingButton: UIButton!
     @IBOutlet weak var labelLabel: UILabel!
+    
     
     @IBAction func landingButtonTapped(_ sender: UIButton) {
         
@@ -23,11 +25,21 @@ class LandingViewController: UIViewController {
         
         self.present(detailVC, animated: true, completion: nil)
     }
+    // input
+    
+    // fileprivate let allSymbols = ["RZW", "UDP", "MIT", "ZKQ", "IPK", "AQU"]
+    
+    // fileprivate let allPrices = Variable<[StockPrice]>([])
+    
+    // output
+    // fileprivate let prices = Variable<[StockPrice]>([])
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
     
 
