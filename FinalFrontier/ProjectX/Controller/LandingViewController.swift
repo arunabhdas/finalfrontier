@@ -14,16 +14,12 @@ class LandingViewController: UIViewController {
     
     @IBAction func landingButtonTapped(_ sender: UIButton) {
         
-        
-        
         let detailVC = storyboard?.instantiateViewController(withIdentifier: "LandingDetailViewController") as! LandingDetailViewController
-        
-        
         
         detailVC.selectedCharacter.subscribe(onNext: { [weak self]  (character) in
             
             self?.labelLabel.text =  "\(character)"
-            }).disposed(by: disposeBag)
+        }).disposed(by: disposeBag)
         
         self.present(detailVC, animated: true, completion: nil)
     }

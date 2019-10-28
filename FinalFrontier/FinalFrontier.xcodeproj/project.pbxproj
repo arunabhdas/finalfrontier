@@ -187,6 +187,7 @@
 				DC6F2115232185DC001D5B6C /* ViewController.swift */,
 				DC6F21472321879E001D5B6C /* MainViewController.swift */,
 				4B7D2A532322A3B800EF5C72 /* LandingViewController.swift */,
+				4BB1E5EE2362D15100A810AA /* LandingDetailViewController.swift */,
 				4B7D2A592322A87D00EF5C72 /* SignUpViewController.swift */,
 				4B7D2A5D2322AA0E00EF5C72 /* LoginViewController.swift */,
 				4B7D2A5F2322B92300EF5C72 /* PickUsernameViewController.swift */,
@@ -195,7 +196,6 @@
 				4B7D2A6D2322FD3000EF5C72 /* FirstTabViewController.swift */,
 				4B7D2A7123268E1000EF5C72 /* UIUtilities.swift */,
 				4B7D2A732327E16F00EF5C72 /* SecondTabViewController.swift */,
-				4BB1E5EE2362D15100A810AA /* LandingDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

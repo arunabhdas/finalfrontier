@@ -8,6 +8,8 @@ import RxSwift
 class LandingDetailViewController: UIViewController {
     
     private let selectedCharacterVariable = Variable("User")
+    
+    
     var selectedCharacter: Observable<String> {
         return selectedCharacterVariable.asObservable()
     }
@@ -16,6 +18,8 @@ class LandingDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("selectedCharacterVariable : \(selectedCharacterVariable)")
 
         // Do any additional setup after loading the view.
     }
