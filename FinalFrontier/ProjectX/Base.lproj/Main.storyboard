@@ -70,7 +70,7 @@
                     <connections>
                         <outlet property="labelLabel" destination="HjT-ZM-X5J" id="kZo-Zw-Bg3"/>
                         <outlet property="landingButton" destination="LLU-7n-rDQ" id="6t8-zG-0Rg"/>
-                        <segue destination="wz6-Oo-MUr" kind="show" identifier="SplashToMainSegue" id="G7J-zc-b34"/>
+                        <segue destination="wz6-Oo-MUr" kind="presentation" identifier="SplashToMainSegue" modalPresentationStyle="fullScreen" id="G7J-zc-b34"/>
                         <segue destination="ke7-9y-jcP" kind="presentation" identifier="SplashToSignUpSegue" id="d0c-ZW-76w"/>
                         <segue destination="4PT-9R-cZY" kind="presentation" identifier="SplashToLoginSegue" id="OUL-un-oMg"/>
                         <segue destination="aKm-33-aC1" kind="showDetail" identifier="LandingToLandingDetail" id="gPU-OT-2Mw"/>
@@ -243,11 +243,11 @@
             <objects>
                 <viewController id="1Z1-bA-H62" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kUb-3Q-qPL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeS-IV-9ft">
-                                <rect key="frame" x="167" y="94" width="41" height="30"/>
+                                <rect key="frame" x="167" y="138" width="41" height="30"/>
                                 <state key="normal" title="Home"/>
                             </button>
                         </subviews>
@@ -269,11 +269,11 @@
             <objects>
                 <viewController id="nzH-cU-cUB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lGI-Up-lDG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxy-3h-mkJ">
-                                <rect key="frame" x="169.66666666666666" y="62" width="36" height="30"/>
+                                <rect key="frame" x="169.66666666666666" y="106" width="36" height="30"/>
                                 <state key="normal" title="More"/>
                             </button>
                         </subviews>
@@ -288,18 +288,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8b-aq-ic5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1450" y="557"/>
+            <point key="canvasLocation" x="-1522" y="715"/>
         </scene>
-        <!--History-->
+        <!--Ideas-->
         <scene sceneID="j0i-8U-sHl">
             <objects>
                 <viewController id="p15-s8-rRN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LKe-24-ndh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1o-xD-Azg">
-                                <rect key="frame" x="162.66666666666666" y="36" width="50" height="30"/>
+                                <rect key="frame" x="162.66666666666666" y="80" width="50" height="30"/>
                                 <state key="normal" title="History"/>
                             </button>
                         </subviews>
@@ -310,22 +310,22 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fn1-kU-ZyL"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="History" image="history_icon" selectedImage="history_icon" id="5wQ-6f-MKa"/>
+                    <tabBarItem key="tabBarItem" title="Ideas" image="lightbulb" catalog="system" selectedImage="lightbulb" id="5wQ-6f-MKa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ymu-tI-YpS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-654" y="625"/>
         </scene>
-        <!--Expenses-->
+        <!--Insights-->
         <scene sceneID="ZIA-N3-97a">
             <objects>
                 <viewController id="DSq-bC-nkF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nPQ-4r-9aJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziy-G8-5s3">
-                                <rect key="frame" x="154.66666666666666" y="32" width="66" height="30"/>
+                                <rect key="frame" x="154.66666666666666" y="76" width="66" height="30"/>
                                 <state key="normal" title="Expenses"/>
                             </button>
                         </subviews>
@@ -336,23 +336,23 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fih-91-SXw"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Expenses" image="expenses_icon" selectedImage="expenses_icon" id="79K-aM-BaV"/>
+                    <tabBarItem key="tabBarItem" title="Insights" image="chart.bar" catalog="system" selectedImage="chart.bar" id="79K-aM-BaV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YR1-N5-dfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="855" y="111"/>
         </scene>
-        <!--Scan-->
+        <!--Portfolio-->
         <scene sceneID="Oih-YP-bZB">
             <objects>
                 <viewController id="Vdp-9Q-oti" customClass="FirstTabViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yrD-ar-4f0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTX-p4-Lze">
-                                <rect key="frame" x="170" y="48" width="35" height="30"/>
-                                <state key="normal" title="Scan"/>
+                                <rect key="frame" x="158.66666666666666" y="92" width="58" height="30"/>
+                                <state key="normal" title="Portfolio"/>
                                 <connections>
                                     <action selector="scanButtonTapped:" destination="Vdp-9Q-oti" eventType="touchUpInside" id="2Fu-8r-foZ"/>
                                 </connections>
@@ -365,7 +365,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MVs-Hn-SLh"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Scan" image="scan_icon" selectedImage="scan_icon" id="30x-cn-exh"/>
+                    <tabBarItem key="tabBarItem" title="Portfolio" image="tag" catalog="system" selectedImage="tag" id="30x-cn-exh"/>
                     <connections>
                         <segue destination="5N5-v4-Lq3" kind="presentation" identifier="ScanToReceiptScannerSegue" id="04z-KY-XN1"/>
                     </connections>
@@ -438,10 +438,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="expenses_icon" width="28" height="28"/>
-        <image name="history_icon" width="28" height="28"/>
+        <image name="chart.bar" catalog="system" width="64" height="44"/>
         <image name="home_icon" width="28" height="28"/>
+        <image name="lightbulb" catalog="system" width="56" height="64"/>
         <image name="more_icon" width="28" height="28"/>
-        <image name="scan_icon" width="28" height="28"/>
+        <image name="tag" catalog="system" width="64" height="58"/>
     </resources>
 </document>
