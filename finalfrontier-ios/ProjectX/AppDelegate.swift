@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        INVocabulary.shared().setVocabularyStrings(["push up", "sit up", "pull up"],  of: .workoutActivityName)
         requestAuthorisation()
         return true
     }
