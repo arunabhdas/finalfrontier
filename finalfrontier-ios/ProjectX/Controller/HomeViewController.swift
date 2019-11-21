@@ -48,6 +48,10 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
+    @objc func dismissKeyboard() {
+        // TODO
+    }
+    
     // MARK: - CLLocationManagerDelegate
     
     func locationManager(manager: CLLocationManager, didUpdateToLocation newLocation: CLLocation, fromLocation oldLocation: CLLocation) {
