@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B6684FF2386EAFE0030B8DD /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6684FE2386EAFE0030B8DD /* IntentHandler.swift */; };
+		4B6685032386EAFE0030B8DD /* RideRequestExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B6684FC2386EAFE0030B8DD /* RideRequestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4B7D2A542322A3B800EF5C72 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A532322A3B800EF5C72 /* LandingViewController.swift */; };
 		4B7D2A5A2322A87D00EF5C72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A592322A87D00EF5C72 /* SignUpViewController.swift */; };
 		4B7D2A5E2322AA0E00EF5C72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A5D2322AA0E00EF5C72 /* LoginViewController.swift */; };
@@ -37,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B6685012386EAFE0030B8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC6F2108232185DC001D5B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6684FB2386EAFE0030B8DD;
+			remoteInfo = RideRequestExtension;
+		};
 		DC6F2128232185DE001D5B6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC6F2108232185DC001D5B6C /* Project object */;
@@ -53,10 +62,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4B6685042386EAFE0030B8DD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B6685032386EAFE0030B8DD /* RideRequestExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		120997E43B75B4F8A7600519 /* Pods-FinalFrontier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalFrontier.release.xcconfig"; path = "Target Support Files/Pods-FinalFrontier/Pods-FinalFrontier.release.xcconfig"; sourceTree = "<group>"; };
 		29AB3BDF987BB0F9B8494626 /* Pods-FinalFrontier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalFrontier.debug.xcconfig"; path = "Target Support Files/Pods-FinalFrontier/Pods-FinalFrontier.debug.xcconfig"; sourceTree = "<group>"; };
 		373921ACBA4FCF963CC72477 /* Pods-ProjectX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectX.debug.xcconfig"; path = "Target Support Files/Pods-ProjectX/Pods-ProjectX.debug.xcconfig"; sourceTree = "<group>"; };
+		4B6684FC2386EAFE0030B8DD /* RideRequestExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RideRequestExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6684FE2386EAFE0030B8DD /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		4B6685002386EAFE0030B8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B7D2A532322A3B800EF5C72 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		4B7D2A592322A87D00EF5C72 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4B7D2A5D2322AA0E00EF5C72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +116,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B6684F92386EAFE0030B8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC6F210D232185DC001D5B6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +159,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4B6684FD2386EAFE0030B8DD /* RideRequestExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4B6684FE2386EAFE0030B8DD /* IntentHandler.swift */,
+				4B6685002386EAFE0030B8DD /* Info.plist */,
+			);
+			path = RideRequestExtension;
+			sourceTree = "<group>";
+		};
 		4B7D2A612322DB5300EF5C72 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +191,7 @@
 				DC6F2112232185DC001D5B6C /* ProjectX */,
 				DC6F212A232185DE001D5B6C /* ProjectXTests */,
 				DC6F2135232185DE001D5B6C /* ProjectXUITests */,
+				4B6684FD2386EAFE0030B8DD /* RideRequestExtension */,
 				DC6F2111232185DC001D5B6C /* Products */,
 				0CA39DF88551BF85930CCA87 /* Pods */,
 				FC001B7020FFB170E91BFE12 /* Frameworks */,
@@ -161,6 +204,7 @@
 				DC6F2110232185DC001D5B6C /* FinalFrontier.app */,
 				DC6F2127232185DE001D5B6C /* FinalFrontierTests.xctest */,
 				DC6F2132232185DE001D5B6C /* FinalFrontierUITests.xctest */,
+				4B6684FC2386EAFE0030B8DD /* RideRequestExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,6 +273,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4B6684FB2386EAFE0030B8DD /* RideRequestExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B6685072386EAFE0030B8DD /* Build configuration list for PBXNativeTarget "RideRequestExtension" */;
+			buildPhases = (
+				4B6684F82386EAFE0030B8DD /* Sources */,
+				4B6684F92386EAFE0030B8DD /* Frameworks */,
+				4B6684FA2386EAFE0030B8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RideRequestExtension;
+			productName = RideRequestExtension;
+			productReference = 4B6684FC2386EAFE0030B8DD /* RideRequestExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		DC6F210F232185DC001D5B6C /* FinalFrontier */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC6F213B232185DE001D5B6C /* Build configuration list for PBXNativeTarget "FinalFrontier" */;
@@ -238,10 +299,12 @@
 				DC6F210D232185DC001D5B6C /* Frameworks */,
 				DC6F210E232185DC001D5B6C /* Resources */,
 				2ADFA033B0021EB69E2267D1 /* [CP] Embed Pods Frameworks */,
+				4B6685042386EAFE0030B8DD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4B6685022386EAFE0030B8DD /* PBXTargetDependency */,
 			);
 			name = FinalFrontier;
 			productName = ProjectX;
@@ -290,10 +353,13 @@
 		DC6F2108232185DC001D5B6C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = ArunabhDas;
 				TargetAttributes = {
+					4B6684FB2386EAFE0030B8DD = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					DC6F210F232185DC001D5B6C = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -323,11 +389,19 @@
 				DC6F210F232185DC001D5B6C /* FinalFrontier */,
 				DC6F2126232185DE001D5B6C /* FinalFrontierTests */,
 				DC6F2131232185DE001D5B6C /* FinalFrontierUITests */,
+				4B6684FB2386EAFE0030B8DD /* RideRequestExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4B6684FA2386EAFE0030B8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC6F210E232185DC001D5B6C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +471,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B6684F82386EAFE0030B8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6684FF2386EAFE0030B8DD /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC6F210C232185DC001D5B6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,6 +526,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B6685022386EAFE0030B8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B6684FB2386EAFE0030B8DD /* RideRequestExtension */;
+			targetProxy = 4B6685012386EAFE0030B8DD /* PBXContainerItemProxy */;
+		};
 		DC6F2129232185DE001D5B6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DC6F210F232185DC001D5B6C /* FinalFrontier */;
@@ -476,6 +563,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4B6685052386EAFE0030B8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				INFOPLIST_FILE = RideRequestExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.FinalFrontier.RideRequestExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B6685062386EAFE0030B8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7Y435RZV6;
+				INFOPLIST_FILE = RideRequestExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.FinalFrontier.RideRequestExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DC6F2139232185DE001D5B6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -596,6 +723,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29AB3BDF987BB0F9B8494626 /* Pods-FinalFrontier.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7Y435RZV6;
@@ -616,6 +744,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 120997E43B75B4F8A7600519 /* Pods-FinalFrontier.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7Y435RZV6;
@@ -716,6 +845,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B6685072386EAFE0030B8DD /* Build configuration list for PBXNativeTarget "RideRequestExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B6685052386EAFE0030B8DD /* Debug */,
+				4B6685062386EAFE0030B8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DC6F210B232185DC001D5B6C /* Build configuration list for PBXProject "FinalFrontier" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
