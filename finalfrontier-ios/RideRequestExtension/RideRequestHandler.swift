@@ -15,4 +15,12 @@ class RideRequestHandler: NSObject, INRequestRideIntentHandling {
         let response = INRequestRideIntentResponse(code: .failureRequiringAppLaunchNoServiceInArea, userActivity: .none)
         completion(response)
     }
+    
+    func resolvePickupLocation(for intent: INRequestRideIntent, with completion: @escaping (INPlacemarkResolutionResult) -> Void) {
+        if let pickup = intent.pickupLocation {
+            completion(.success(with: pickup))
+        } else {
+            completion(.needsValue())
+        }
+    }
 }
