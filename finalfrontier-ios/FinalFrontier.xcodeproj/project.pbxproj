@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B6684FF2386EAFE0030B8DD /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6684FE2386EAFE0030B8DD /* IntentHandler.swift */; };
 		4B6685032386EAFE0030B8DD /* RideRequestExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B6684FC2386EAFE0030B8DD /* RideRequestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B6685092386EBCF0030B8DD /* RideRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6685082386EBCF0030B8DD /* RideRequestHandler.swift */; };
+		4B66850D2386F0A10030B8DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66850B2386F01B0030B8DD /* HomeViewController.swift */; };
 		4B7D2A542322A3B800EF5C72 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A532322A3B800EF5C72 /* LandingViewController.swift */; };
 		4B7D2A5A2322A87D00EF5C72 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A592322A87D00EF5C72 /* SignUpViewController.swift */; };
 		4B7D2A5E2322AA0E00EF5C72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D2A5D2322AA0E00EF5C72 /* LoginViewController.swift */; };
@@ -83,6 +85,9 @@
 		4B6684FC2386EAFE0030B8DD /* RideRequestExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RideRequestExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6684FE2386EAFE0030B8DD /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		4B6685002386EAFE0030B8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6685082386EBCF0030B8DD /* RideRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestHandler.swift; sourceTree = "<group>"; };
+		4B66850A2386EE330030B8DD /* FinalFrontier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinalFrontier.entitlements; sourceTree = "<group>"; };
+		4B66850B2386F01B0030B8DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4B7D2A532322A3B800EF5C72 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		4B7D2A592322A87D00EF5C72 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4B7D2A5D2322AA0E00EF5C72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +169,7 @@
 			children = (
 				4B6684FE2386EAFE0030B8DD /* IntentHandler.swift */,
 				4B6685002386EAFE0030B8DD /* Info.plist */,
+				4B6685082386EBCF0030B8DD /* RideRequestHandler.swift */,
 			);
 			path = RideRequestExtension;
 			sourceTree = "<group>";
@@ -188,6 +194,7 @@
 		DC6F2107232185DC001D5B6C = {
 			isa = PBXGroup;
 			children = (
+				4B66850A2386EE330030B8DD /* FinalFrontier.entitlements */,
 				DC6F2112232185DC001D5B6C /* ProjectX */,
 				DC6F212A232185DE001D5B6C /* ProjectXTests */,
 				DC6F2135232185DE001D5B6C /* ProjectXUITests */,
@@ -258,6 +265,7 @@
 				4B7D2A6D2322FD3000EF5C72 /* FirstTabViewController.swift */,
 				4B7D2A7123268E1000EF5C72 /* UIUtilities.swift */,
 				4B7D2A732327E16F00EF5C72 /* SecondTabViewController.swift */,
+				4B66850B2386F01B0030B8DD /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,6 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6685092386EBCF0030B8DD /* RideRequestHandler.swift in Sources */,
 				4B6684FF2386EAFE0030B8DD /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +497,7 @@
 				4BB1E5F423673B7D00A810AA /* Transaction.swift in Sources */,
 				4B7D2A5A2322A87D00EF5C72 /* SignUpViewController.swift in Sources */,
 				4B7D2A6C2322FCE200EF5C72 /* CameraViewController.swift in Sources */,
+				4B66850D2386F0A10030B8DD /* HomeViewController.swift in Sources */,
 				4B7D2A602322B92300EF5C72 /* PickUsernameViewController.swift in Sources */,
 				DC6F2116232185DC001D5B6C /* ViewController.swift in Sources */,
 				DC6F2114232185DC001D5B6C /* AppDelegate.swift in Sources */,
@@ -725,6 +735,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FinalFrontier.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7Y435RZV6;
 				INFOPLIST_FILE = ProjectX/Info.plist;
@@ -746,6 +757,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FinalFrontier.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7Y435RZV6;
 				INFOPLIST_FILE = ProjectX/Info.plist;

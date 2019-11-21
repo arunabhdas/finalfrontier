@@ -4,6 +4,7 @@
 
 import UIKit
 import CoreData
+import Intents
 
 
 @UIApplicationMain
@@ -83,6 +84,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
+        }
+    }
+    
+    fileprivate func requestAuthorisation() {
+        INPreferences.requestSiriAuthorization { status in
+            if status == .authorized {
+                print("Hey Sir")
+            } else {
+                print("Nay, Siri")
+            }
+            
         }
     }
 

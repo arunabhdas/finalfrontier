@@ -18,4 +18,5 @@ pod 'Firebase/Analytics'
 # pod 'Firebase/MLVisionTextModel'
 pod 'RxSwift',    '~> 4.0'
 pod "Cupcake"
+pod 'FontAwesome.swift'
 end
