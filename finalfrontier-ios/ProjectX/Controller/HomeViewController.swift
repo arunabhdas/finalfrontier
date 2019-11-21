@@ -29,7 +29,7 @@ class HomeViewController: UIViewController, CLLocationManagerDelegate {
         backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
         self.view.insertSubview(backgroundImage, at: 0)
         
-        title = Constants.MenuTitles.kTitleOne
+        title = Constants.MenuTitles.kTitleThree
 
 
         

@@ -95,12 +95,12 @@ struct Constants {
     }
     
     struct MenuTitles {
-        static let kTitleOne = "League Schedule"
-        static let kTitleTwo = "Practice Schedule"
-        static let kTitleThree = "Players"
-        static let kTitleFour = "Teams"
-        static let kTitleFive = "League Match Stats"
-        static let kTitleSix = "Practice Match Stats"
+        static let kTitleOne = "Portfolio"
+        static let kTitleTwo = "Insights"
+        static let kTitleThree = "Home"
+        static let kTitleFour = "Ideas"
+        static let kTitleFive = "More"
+        static let kTitleSix = "Contact"
         static let kTitleSeven = "About"
     }
     
