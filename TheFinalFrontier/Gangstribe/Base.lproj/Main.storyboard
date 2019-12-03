@@ -114,7 +114,7 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="mOI-FS-AaM">
-                        <barButtonItem key="rightBarButtonItem" title="Face Replace" id="oDo-yY-lmx">
+                        <barButtonItem key="rightBarButtonItem" title="Advanced" id="oDo-yY-lmx">
                             <connections>
                                 <segue destination="DkV-lm-Db0" kind="presentation" id="5Ty-ri-DeK"/>
                             </connections>
