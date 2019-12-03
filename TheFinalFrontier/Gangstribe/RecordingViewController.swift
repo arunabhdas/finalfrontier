@@ -5,6 +5,7 @@ import Speech
 class RecordingViewController: UIViewController {
   
   fileprivate var player: AVPlayer?
+  var audioPlayer = AVAudioPlayer()
   
   @IBOutlet weak var titleLabel: UILabel!
   @IBOutlet weak var subtitleLabel: UILabel!
@@ -28,7 +29,15 @@ class RecordingViewController: UIViewController {
       contentStackView.isHidden = true
     }
     
-    try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: [])
+    // try! AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: [])
+    
+    do {
+        try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, mode: AVAudioSessionModeDefault)
+    } catch {
+        print(error)
+    }
+    
+    
   }
   
   // Mark: - Audio control
@@ -38,6 +47,15 @@ class RecordingViewController: UIViewController {
       playButton.isEnabled = false
       stopButton.isEnabled = true
       player?.play()
+      /*
+      let sound = Bundle.main.path(forResource: "01_ItsLikeThat", ofType: "m4a")
+      do {
+        audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+        }
+      catch {
+            print(error)
+        }
+      */
     case stopButton:
       playButton.isEnabled = true
       stopButton.isEnabled = false
