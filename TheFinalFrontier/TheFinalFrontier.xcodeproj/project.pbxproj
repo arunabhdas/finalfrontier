@@ -11,16 +11,6 @@
 		227FFC741D53569F007DF37A /* LiveTranscribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227FFC731D53569F007DF37A /* LiveTranscribeViewController.swift */; };
 		227FFC761D535716007DF37A /* FaceSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227FFC751D535716007DF37A /* FaceSource.swift */; };
 		227FFC781D535731007DF37A /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227FFC771D535731007DF37A /* FaceCell.swift */; };
-		22D398161D5278C800A4DF66 /* 01_ItsLikeThat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D3980C1D5278C800A4DF66 /* 01_ItsLikeThat.m4a */; };
-		22D398171D5278C800A4DF66 /* 02_JumpAround.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D3980D1D5278C800A4DF66 /* 02_JumpAround.m4a */; };
-		22D398181D5278C800A4DF66 /* 03_GangstasParadise.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D3980E1D5278C800A4DF66 /* 03_GangstasParadise.m4a */; };
-		22D398191D5278C800A4DF66 /* 04_UCantTouchThis.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D3980F1D5278C800A4DF66 /* 04_UCantTouchThis.m4a */; };
-		22D3981A1D5278C800A4DF66 /* 05_RappersDelight.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D398101D5278C800A4DF66 /* 05_RappersDelight.m4a */; };
-		22D3981B1D5278C800A4DF66 /* 06_ILikeBigButts.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D398111D5278C800A4DF66 /* 06_ILikeBigButts.m4a */; };
-		22D3981C1D5278C800A4DF66 /* 07_OneDance.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D398121D5278C800A4DF66 /* 07_OneDance.m4a */; };
-		22D3981D1D5278C800A4DF66 /* 08_NoSleepTilBrooklyn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D398131D5278C800A4DF66 /* 08_NoSleepTilBrooklyn.m4a */; };
-		22D3981E1D5278C800A4DF66 /* 09_Informer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D398141D5278C800A4DF66 /* 09_Informer.m4a */; };
-		22D3981F1D5278C800A4DF66 /* 10_RaiseYourHands.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 22D398151D5278C800A4DF66 /* 10_RaiseYourHands.m4a */; };
 		22E6D29E1D507F9800D8CE41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6D29D1D507F9800D8CE41 /* AppDelegate.swift */; };
 		22E6D2A01D507F9800D8CE41 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6D29F1D507F9800D8CE41 /* MasterViewController.swift */; };
 		22E6D2A51D507F9900D8CE41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E6D2A31D507F9900D8CE41 /* Main.storyboard */; };
@@ -29,6 +19,10 @@
 		22E6D2B61D50814800D8CE41 /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6D2B51D50814800D8CE41 /* RecordingViewController.swift */; };
 		22E6D2B81D50827000D8CE41 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6D2B71D50827000D8CE41 /* Recording.swift */; };
 		22E6D2BD1D50926C00D8CE41 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E6D2BC1D50926C00D8CE41 /* BorderedButton.swift */; };
+		4B9E277B2396407400829A3B /* 1_stairway_to_heaven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E277A2396407400829A3B /* 1_stairway_to_heaven.mp3 */; };
+		4B9E277D239642E700829A3B /* 2_brothers_in_arms.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E277C239642E700829A3B /* 2_brothers_in_arms.mp3 */; };
+		4B9E277F2396487200829A3B /* 3_high_and_dry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E277E2396487200829A3B /* 3_high_and_dry.mp3 */; };
+		4B9E2781239649BB00829A3B /* 4_losing_my_religion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B9E2780239649BB00829A3B /* 4_losing_my_religion.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,16 +30,6 @@
 		227FFC731D53569F007DF37A /* LiveTranscribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTranscribeViewController.swift; sourceTree = "<group>"; };
 		227FFC751D535716007DF37A /* FaceSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceSource.swift; sourceTree = "<group>"; };
 		227FFC771D535731007DF37A /* FaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceCell.swift; sourceTree = "<group>"; };
-		22D3980C1D5278C800A4DF66 /* 01_ItsLikeThat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 01_ItsLikeThat.m4a; sourceTree = "<group>"; };
-		22D3980D1D5278C800A4DF66 /* 02_JumpAround.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02_JumpAround.m4a; sourceTree = "<group>"; };
-		22D3980E1D5278C800A4DF66 /* 03_GangstasParadise.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 03_GangstasParadise.m4a; sourceTree = "<group>"; };
-		22D3980F1D5278C800A4DF66 /* 04_UCantTouchThis.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04_UCantTouchThis.m4a; sourceTree = "<group>"; };
-		22D398101D5278C800A4DF66 /* 05_RappersDelight.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 05_RappersDelight.m4a; sourceTree = "<group>"; };
-		22D398111D5278C800A4DF66 /* 06_ILikeBigButts.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 06_ILikeBigButts.m4a; sourceTree = "<group>"; };
-		22D398121D5278C800A4DF66 /* 07_OneDance.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 07_OneDance.m4a; sourceTree = "<group>"; };
-		22D398131D5278C800A4DF66 /* 08_NoSleepTilBrooklyn.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 08_NoSleepTilBrooklyn.m4a; sourceTree = "<group>"; };
-		22D398141D5278C800A4DF66 /* 09_Informer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 09_Informer.m4a; sourceTree = "<group>"; };
-		22D398151D5278C800A4DF66 /* 10_RaiseYourHands.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10_RaiseYourHands.m4a; sourceTree = "<group>"; };
 		22E6D29A1D507F9800D8CE41 /* TheFinalFrontier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheFinalFrontier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E6D29D1D507F9800D8CE41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22E6D29F1D507F9800D8CE41 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +40,10 @@
 		22E6D2B51D50814800D8CE41 /* RecordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
 		22E6D2B71D50827000D8CE41 /* Recording.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		22E6D2BC1D50926C00D8CE41 /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		4B9E277A2396407400829A3B /* 1_stairway_to_heaven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1_stairway_to_heaven.mp3; sourceTree = "<group>"; };
+		4B9E277C239642E700829A3B /* 2_brothers_in_arms.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2_brothers_in_arms.mp3; sourceTree = "<group>"; };
+		4B9E277E2396487200829A3B /* 3_high_and_dry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3_high_and_dry.mp3; sourceTree = "<group>"; };
+		4B9E2780239649BB00829A3B /* 4_losing_my_religion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4_losing_my_religion.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,16 +138,10 @@
 		22E6D2B91D508EAD00D8CE41 /* Audio Samples */ = {
 			isa = PBXGroup;
 			children = (
-				22D3980C1D5278C800A4DF66 /* 01_ItsLikeThat.m4a */,
-				22D3980D1D5278C800A4DF66 /* 02_JumpAround.m4a */,
-				22D3980E1D5278C800A4DF66 /* 03_GangstasParadise.m4a */,
-				22D3980F1D5278C800A4DF66 /* 04_UCantTouchThis.m4a */,
-				22D398101D5278C800A4DF66 /* 05_RappersDelight.m4a */,
-				22D398111D5278C800A4DF66 /* 06_ILikeBigButts.m4a */,
-				22D398121D5278C800A4DF66 /* 07_OneDance.m4a */,
-				22D398131D5278C800A4DF66 /* 08_NoSleepTilBrooklyn.m4a */,
-				22D398141D5278C800A4DF66 /* 09_Informer.m4a */,
-				22D398151D5278C800A4DF66 /* 10_RaiseYourHands.m4a */,
+				4B9E277A2396407400829A3B /* 1_stairway_to_heaven.mp3 */,
+				4B9E277C239642E700829A3B /* 2_brothers_in_arms.mp3 */,
+				4B9E277E2396487200829A3B /* 3_high_and_dry.mp3 */,
+				4B9E2780239649BB00829A3B /* 4_losing_my_religion.mp3 */,
 			);
 			name = "Audio Samples";
 			sourceTree = "<group>";
@@ -226,18 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D3981A1D5278C800A4DF66 /* 05_RappersDelight.m4a in Resources */,
+				4B9E277F2396487200829A3B /* 3_high_and_dry.mp3 in Resources */,
+				4B9E2781239649BB00829A3B /* 4_losing_my_religion.mp3 in Resources */,
 				22E6D2AA1D507F9900D8CE41 /* LaunchScreen.storyboard in Resources */,
-				22D3981F1D5278C800A4DF66 /* 10_RaiseYourHands.m4a in Resources */,
-				22D398171D5278C800A4DF66 /* 02_JumpAround.m4a in Resources */,
-				22D3981D1D5278C800A4DF66 /* 08_NoSleepTilBrooklyn.m4a in Resources */,
+				4B9E277D239642E700829A3B /* 2_brothers_in_arms.mp3 in Resources */,
 				22E6D2A71D507F9900D8CE41 /* Assets.xcassets in Resources */,
-				22D3981B1D5278C800A4DF66 /* 06_ILikeBigButts.m4a in Resources */,
-				22D3981E1D5278C800A4DF66 /* 09_Informer.m4a in Resources */,
-				22D398181D5278C800A4DF66 /* 03_GangstasParadise.m4a in Resources */,
-				22D398161D5278C800A4DF66 /* 01_ItsLikeThat.m4a in Resources */,
-				22D3981C1D5278C800A4DF66 /* 07_OneDance.m4a in Resources */,
-				22D398191D5278C800A4DF66 /* 04_UCantTouchThis.m4a in Resources */,
+				4B9E277B2396407400829A3B /* 1_stairway_to_heaven.mp3 in Resources */,
 				22E6D2A51D507F9900D8CE41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

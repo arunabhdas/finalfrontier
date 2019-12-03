@@ -1,16 +1,10 @@
 import Foundation
 
 let recordingNames: [(String, String, String, String?)] = [
-  ("It's Like That", "Run DMC", "01_ItsLikeThat.m4a", "en_GB"),
-  ("Jump Around", "House of Pain", "02_JumpAround.m4a", "en_GB"),
-  ("Gangsta's Paradise", "Coolio", "03_GangstasParadise.m4a", "en_GB"),
-  ("U Can't Touch This", "MC Hammer", "04_UCantTouchThis.m4a", "en_GB"),
-  ("Rapper's Delight", "Sugarhill Gang", "05_RappersDelight.m4a", "en_GB"),
-  ("I Like Big Butts", "Sir Mix-a-Lot", "06_ILikeBigButts.m4a", "en_GB"),
-  ("One Dance", "Drake", "07_OneDance.m4a", "en_GB"),
-  ("No Sleep 'Til Brooklyn", "Beastie Boys", "08_NoSleepTilBrooklyn.m4a", "en_GB"),
-  ("Informer", "Snow", "09_Informer.m4a", "en_GB"),
-  ("Raise Your Hands", "โจอี้ บอย", "10_RaiseYourHands.m4a", "th_TH")
+  ("Stairway to Heaven", "DasMachineLabs", "1_stairway_to_heaven.mp3", "en_GB"),
+  ("Brothers in Arms", "DasMachineLabs", "2_brothers_in_arms.mp3", "en_GB"),
+  ("High and Dry", "DasMachineLabs", "3_high_and_dry.mp3", "en_GB"),
+  ("Losing My Religion", "DasMachineLabs", "4_losing_my_religion.mp3", "en_GB")
 ]
 
 struct Recording {
