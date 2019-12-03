@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IntentsRestrictedWhileLocked</key>
+	<array/>
 	<key>NSSiriUsageDescription</key>
 	<string>FinalFrontier would like to help you get services and book appointments using Siri</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

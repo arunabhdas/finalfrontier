@@ -342,7 +342,7 @@
             </objects>
             <point key="canvasLocation" x="855" y="111"/>
         </scene>
-        <!--Portfolio-->
+        <!--History-->
         <scene sceneID="Oih-YP-bZB">
             <objects>
                 <viewController id="Vdp-9Q-oti" customClass="FirstTabViewController" customModule="FinalFrontier" customModuleProvider="target" sceneMemberID="viewController">
@@ -351,8 +351,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTX-p4-Lze">
-                                <rect key="frame" x="158.66666666666666" y="92" width="58" height="30"/>
-                                <state key="normal" title="Portfolio"/>
+                                <rect key="frame" x="162.66666666666666" y="92" width="50" height="30"/>
+                                <state key="normal" title="History"/>
                                 <connections>
                                     <action selector="scanButtonTapped:" destination="Vdp-9Q-oti" eventType="touchUpInside" id="2Fu-8r-foZ"/>
                                 </connections>
@@ -365,7 +365,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MVs-Hn-SLh"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Portfolio" image="tag" catalog="system" selectedImage="tag" id="30x-cn-exh"/>
+                    <tabBarItem key="tabBarItem" title="History" image="tag" catalog="system" selectedImage="tag" id="30x-cn-exh"/>
                     <connections>
                         <segue destination="5N5-v4-Lq3" kind="presentation" identifier="ScanToReceiptScannerSegue" id="04z-KY-XN1"/>
                     </connections>
